@@ -1,11 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 
 :root{
-    
+    --cor-principal-texto:#000000;
+    --cor-secundaria-texto:#FFFFFF;
+    --cor-fundo:#FFFFFF;
+    --cor-fundo2:#39A9A4;
 
 }
+/*   
+fonte titulo:
+*/
 
-h1{
-    font-family: 'Cormorant Garamond', serif;
-    font-weight: 100px;
+.titulo{
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    padding-left: 80px;
 }
+
+.barra{
+    height: 10px;
+    background-color: var(--cor-fundo2);
+    padding-top: 2px;
+    background-color: var(--cor-fundo2);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.nav{
+    background-color: var(--cor-fundo);
+    height: 60px;
+    width: auto;
+    margin-left: -10px;
+    margin-right: -10px;
+    border-bottom: #000000;
+    border-bottom: 2px;
+    border-style: groove;
+}
+
