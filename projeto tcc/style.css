@@ -12,16 +12,69 @@
 fonte titulo:
 */
 
-.titulo{
-    font-family: 'Cormorant SC', serif;
-    font-size: 40px;
-    font-weight: normal;
-    padding-left: 43%;
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding-top: 20px;
+    height: 0;
+    width: 0;
+
+}
+
+.navbar__links {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: var(--cor-principal-texto);
+
+    padding-left: 40px;
+    padding-right: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+
+  }
+
+  .navbar__menu_2{
+    align-items: unset;
+    padding-left: 70%;
+    display: flex;
+    align-items: center;
+    list-style: none;
     margin: 0;
 }
 
+.navbar__links_2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px;
+    color: var(--cor-principal-texto);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+
+  }
+
+.titulo{
+    width: auto;
+    height: 20px;
+    font-family: 'Cormorant SC', serif;
+    font-size: 37px;
+    font-weight: normal;
+    padding-left: 43%;
+    margin: 0;
+    
+}
+
 .barra{
-    height: 10px;
+    height: 8px;
     background-color: var(--cor-fundo2);
     padding-top: 2px;
     margin-left: -10px;
@@ -29,28 +82,19 @@ fonte titulo:
     margin-top: -10px;
 }
 
+
+
 .nav{
     background-color: var(--cor-fundo);
     height: 60px;
     width: auto;
+    margin: 0;
     margin-left: -10px;
     margin-right: -10px;
-    border-bottom: #000000;
-    border-bottom: 2px;
-    border-style: groove;
+    
+    /*border-style: groove;
+    border-top: #000000;
+    border-top: 2px;*/
+    
 }
-.navbar_links{
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-.navbar_content{
-    font-family: 'Cormorant Garamond', serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 155px;
-    text-decoration: none;
-    font-size: 25px;
-    font-style: normal;
-}
+
