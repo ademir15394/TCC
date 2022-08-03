@@ -6,11 +6,10 @@
     --cor-secundaria-texto:#FFFFFF;
     --cor-fundo:#FFFFFF;
     --cor-fundo2:#39A9A4;
+ 
 
 }
-/*   
-fonte titulo:
-*/
+
 
 .navbar__menu {
     display: flex;
@@ -99,3 +98,12 @@ fonte titulo:
     
 }
 
+.titulo_slide{
+    font-family: 'Cormorant SC', serif;
+    font-style: none;
+    font-weight: normal;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
