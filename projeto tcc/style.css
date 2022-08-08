@@ -6,11 +6,13 @@
     --cor-secundaria-texto:#FFFFFF;
     --cor-fundo:#FFFFFF;
     --cor-fundo2:#39A9A4;
- 
-
 }
 
+body{
+    margin: none;
+}
 
+/*começo navbar*/
 .navbar__menu {
     display: flex;
     align-items: center;
@@ -74,6 +76,7 @@
 }
 
 .barra{
+    width: 1500px;
     height: 8px;
     background-color: var(--cor-fundo2);
     padding-top: 2px;
@@ -87,23 +90,190 @@
 .nav{
     background-color: var(--cor-fundo);
     height: 60px;
-    width: auto;
+    width: 1500px;
     margin: 0;
     margin-left: -10px;
     margin-right: -10px;
+    border: #000000;
     
-    /*border-style: groove;
-    border-top: #000000;
-    border-top: 2px;*/
+}
+/*fim da navbar*/
+
+
+
+
+
+
+
+
+
+/*carrosel*/
+.containerproje{
+    position: relative;
+}
+
+.containerproje .slide-container .slide{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px 9%;
+    padding-bottom: 70px;
+}
+
+.containerproje .slide-container .slide .contentproje{
+    flex: 1 1 350px;
+    animation: slideContent .4s linear .4s backwards;
+}
+
+@keyframes slideContent{0%
+{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+}
+
+
+.containerproje .slide-container .slide .contentproje h3{
+    font-size: 35px;
+    color: #f4a6fe;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.containerproje .slide-container .slide .contentproje p{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    width: 40%;
+    height: 10%;
+
+}
+
+.containerproje .slide-container .slide .contentproje .bntproj{
+    margin-top: 10px;
+    display: inline-block;
+    background: #8932c3;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 9px 40px;
+    border-radius: 5px;
+    border: 2px solid #8932c3;
+    font-family: 'Noto Sans', sans-serif;
+    text-decoration: none;
+}
+
+.containerproje .slide-container .slide .contentproje .bntproj:hover{
+    background: #a355d7;
+    border: 2px solid #a355d7;
+    color: #ffffff;
+}
+
+.containerproje .slide-container{
+    display: none;
+}
+
+.containerproje .slide-container.active{
+    display: block;
+}
+
+.containerproje .slide-container:nth-child(1) .slide{
+    background: url(img/img-carrosel1.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    margin-left: -9px;
     
 }
 
-.titulo_slide{
-    font-family: 'Cormorant SC', serif;
-    font-style: none;
-    font-weight: normal;
-    padding-top: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.containerproje .slide-container:nth-child(2) .slide{
+    background: url(img/img-carrosel2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    margin-left: -9px;
+    
+}
+
+.containerproje .slide-container:nth-child(3) .slide{
+    background: url(img/img-carrosel3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    margin-left: -9px;
+    
+}
+
+.containerproje #prev, 
+.containerproje #next {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    background: var(--cor-fundo2);
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+
+.containerproje #prev:hover, 
+.containerproje #next:hover{
+    transition: all 1s;
+    background:#3ac9c2;
+}
+.containerproje #prev{
+    left: 20px;
+}
+
+.containerproje #next{
+    right: 20px;
+}
+
+
+
+@media(max-width: 500px){
+    .containerproje #prev{
+        left: 0px;
+        top: 60%;
+    }
+
+    .containerproje #next{
+        right: 0px;
+        top: 60%;
+    }
+
+
+    .containerproje .slide-container .slide .contentproje p{
+        font-size: 16px;
+        color: #ffffff;
+        font-family: 'Noto Sans', sans-serif;
+        width: 70%;
+        height: 10%;
+    
+    }
+}
+/*fim do carrosel*/
+
+
+
+
+
+
+
+
+
+
+.session1{
+     padding-top: 28%;
+    width: auto;
+    height: 50%;
+    background-color: var(--cor-fundo2);
 }
