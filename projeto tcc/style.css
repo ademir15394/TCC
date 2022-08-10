@@ -9,7 +9,9 @@
 }
 
 body{
-    margin: none;
+    width: auto;
+    background-color: #171414;
+    margin: 0;
 }
 
 /*começo navbar*/
@@ -27,7 +29,7 @@ body{
 .navbar__links {
     font-family: 'Cormorant Garamond', serif;
     font-size: 26px;
-    color: var(--cor-principal-texto);
+    color: #FFFFFF;
 
     padding-left: 40px;
     padding-right: 39px;
@@ -53,7 +55,7 @@ body{
 .navbar__links_2{
     font-family: 'Cormorant Garamond', serif;
     font-size: 26px;
-    color: var(--cor-principal-texto);
+    color: #ffffff;
 
     display: flex;
     align-items: center;
@@ -67,18 +69,19 @@ body{
 .titulo{
     width: auto;
     height: 20px;
+    color: #39A9A3;
     font-family: 'Cormorant SC', serif;
     font-size: 37px;
     font-weight: normal;
     padding-left: 43%;
-    margin: 0;
+    margin: 0px;
     
 }
 
 .barra{
-    width: 1500px;
-    height: 8px;
-    background-color: var(--cor-fundo2);
+    width: auto;
+    height: 18px;
+    background-color: #DFBC74;
     padding-top: 2px;
     margin-left: -10px;
     margin-right: -10px;
@@ -88,13 +91,12 @@ body{
 
 
 .nav{
-    background-color: var(--cor-fundo);
+
+
+    background-color: #333333;
     height: 60px;
-    width: 1500px;
+    width: auto;
     margin: 0;
-    margin-left: -10px;
-    margin-right: -10px;
-    border: #000000;
 }
 
 /*fim da navbar*/
@@ -110,10 +112,11 @@ body{
 /*carrosel*/
 .containerproje{
     position: relative;
+    padding-top: 10px;
 }
 
 .containerproje .slide-container .slide{
-    min-height: 100vh;
+    min-height: 64vh;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -137,7 +140,7 @@ body{
 
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
-    color: #f4a6fe;
+    color: #00C2B8;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -153,12 +156,12 @@ body{
 .containerproje .slide-container .slide .contentproje .bntproj{
     margin-top: 10px;
     display: inline-block;
-    background: #8932c3;
+    background: #DFBC74;
     color: #ffffff;
     font-size: 17px;
     padding: 9px 40px;
     border-radius: 5px;
-    border: 2px solid #8932c3;
+    border: 2px solid #DFBC74;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
 }
