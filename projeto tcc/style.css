@@ -301,3 +301,25 @@ body{
     font-size: 28px;
     padding-top: %;
 }
+
+.botao{
+    position: absolute;
+width: 413px;
+height: 67px;
+left: 472px;
+top: 1306px;
+
+font-family: 'Cormorant Garamond';
+font-style: normal;
+font-weight: 400;
+font-size: 38px;
+line-height: 67px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.29em;
+
+color: #000000;
+
+
+}
