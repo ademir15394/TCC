@@ -14,6 +14,18 @@ body{
     margin: 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /*começo navbar*/
 .navbar__menu {
     display: flex;
@@ -105,6 +117,9 @@ body{
 }
 
 /*fim da navbar*/
+
+
+
 
 
 
@@ -278,11 +293,17 @@ body{
 
 
 
+
+
+
+
+/*sessao cursos*/
+
 .container{
     display: flex;
     padding-top: 0%;
     background-color: #DFBC74;
-    height: 336px;
+    height: auto;
 }
 
 .titulo2{
@@ -302,19 +323,21 @@ body{
     list-style: none;
     color: #FFFFFF;
     font-family: 'Quicksand';
+    width: auto;
 
 }
 
 .botao{
     /*organizaçao do botao*/
-    display: flex;
-    align-items: center;
     height: 60px;
     width: 200px;
     position: absolute;
-    top: 1020px;
-    border-radius: 40px;
+    top: 1080px;
+    border-radius: 900px;
+
+    
     border-style: none;
+    left: 610px;
     
     /*area de texto*/
     display: flex;
@@ -326,3 +349,57 @@ body{
     font-weight: none;
 
 }
+
+.botao:hover{
+    background-color: #333333;
+    transition:  1s;
+    color: #d39518;
+    width: 250px;
+    
+}
+
+/*fim sessao de cursos*/
+
+
+
+
+
+
+
+
+
+
+/*sessao de procedimento*/
+
+.procedimento{
+
+    width: auto;
+    height: auto;
+    background-color: #FFFFFF;
+
+}
+
+.titulo3{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    padding-left: 500px;
+
+    font-size: 50px;
+    font-style: none;
+    font-weight: normal;
+    font-family:'Cormorant SC';
+    letter-spacing: 15px;
+    color: #1e807b;
+    margin: 0;
+    
+
+}
+/*foto 1*/
+.procedimentos{
+ width: 470px;
+ margin-top: 70px;
+
+}
+/*dim foto1*/
+/*fim da sessao de procedimento*/
