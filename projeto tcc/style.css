@@ -86,6 +86,7 @@ body{
   }
 
 .titulo{
+    
     width: auto;
     height: 20px;
     color: #39A9A3;
@@ -396,10 +397,27 @@ body{
 
 }
 /*foto 1*/
-.procedimentos{
- width: 470px;
- margin-top: 70px;
+.img1{
+    width: 470px;
+    margin-top: 70px;
+    margin-left: 10px;
+    border-color: #333333;
+    border-style: solid;
+    border-width: 17px;
+
 
 }
-/*dim foto1*/
+/*foto foto1*/
+
+.img1,.subtitulo{
+    display: inline-block;
+    float: left;
+}
+.subtitulo{
+    color: #d39518;
+    font-size: 31px;
+    font-stretch: normal;
+    font-family: 'Cormorant SC';
+}
+
 /*fim da sessao de procedimento*/
