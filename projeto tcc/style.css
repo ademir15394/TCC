@@ -10,7 +10,7 @@
 
 body{
     width: auto;
-    background-color: #171414;
+    background-color: #000000;
     margin: 0;
 }
 
@@ -304,7 +304,7 @@ body{
     display: flex;
     padding-top: 0%;
     background-color: #DFBC74;
-    height: auto;
+    height: 400px;
 }
 
 .titulo2{
@@ -329,18 +329,15 @@ body{
 }
 
 .botao{
-    /*organizaçao do botao*/
-    height: 60px;
+    position: relative;
+    height: 50px;
     width: 200px;
-    position: absolute;
-    top: 1080px;
-    border-radius: 900px;
-
-    
+    top: 319px;
     border-style: none;
-    left: 610px;
+    right: 820px;
     
-    /*area de texto*/
+
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -351,13 +348,15 @@ body{
 
 }
 
-.botao:hover{
+/*.botao:hover{
     background-color: #333333;
     transition:  1s;
     color: #d39518;
     width: 250px;
     
-}
+}*/
+
+
 
 /*fim sessao de cursos*/
 
@@ -391,33 +390,35 @@ body{
     font-weight: normal;
     font-family:'Cormorant SC';
     letter-spacing: 15px;
-    color: #1e807b;
+    color: #00C2B8;
     margin: 0;
     
 
 }
-/*foto 1*/
+
 .img1{
     width: 470px;
     margin-top: 70px;
     margin-left: 10px;
-    border-color: #333333;
-    border-style: solid;
-    border-width: 17px;
-
-
-}
-/*foto foto1*/
-
-.img1,.subtitulo{
-    display: inline-block;
+    margin-right: 14px;
     float: left;
-}
-.subtitulo{
-    color: #d39518;
-    font-size: 31px;
-    font-stretch: normal;
-    font-family: 'Cormorant SC';
+    
 }
 
-/*fim da sessao de procedimento*/
+.subtitulo{
+    color: #FFFFFF;
+    font-size: 34px;
+    font-family: 'Cormorant Garamond' ;
+    font-weight:500;
+
+
+}
+
+.texto1{
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+
+
