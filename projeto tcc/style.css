@@ -345,6 +345,7 @@ body{
     font-style: normal;
     font-stretch: none;
     font-weight: none;
+    font-family: 'Cormorant Garamond';
 
 }
 
@@ -418,7 +419,82 @@ body{
     color: #FFFFFF;
     font-size: 26px;
     font-weight: normal;
+    font-family: 'Quicksand';
+}
+
+.pt{
+     padding-top: 3%;
+}
+
+.btn-saiba{
+    
+    font-size: 35px;
+    font-family: 'Quicksand';
+    font-weight:normal;
+    font-style: none;
+
+
+    background-color: #0AA49B;
+    color: #FFFFFF;
+    height: 54px;
+    align-items: center;
+    align-content: center;
+    width: 280px;
+}
+
+.btn-saiba:hover{
+    transition: all 0.50s;
+    width: 290px;
+    height: 59px;
 }
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+.agendamento{
+    background-color: #0AA49B;
+        width: 100%;
+        height: auto;
+
+}
+
+.titulo4{
+    
+    font-family: 'Quicksand';
+    font-size: 60px;
+    font-weight: normal;
+    color: #FFFFFF;
+    margin: auto;
+    padding-top: 40px;
+}
+
+.btn-agendamento{
+    display: flex;
+    align-items: center;
+    align-content: center;
+
+
+    background-color: #FFFFFF;
+    font-size: 40px;
+    font-family: 'Quicksand';
+    font-weight: normal;
+    font-style: normal;
+    border: none;
+    border-radius: 50px;
+    width: 290px;
+    height: 70px;
+
+
+
+}
