@@ -89,7 +89,7 @@ body{
     
     width: auto;
     height: 20px;
-    color: #39A9A3;
+    color: #FFFFFF;
     font-family: 'Cormorant SC';
     font-size: 37px;
     font-weight: normal;
@@ -101,7 +101,7 @@ body{
 .barra{
     width: auto;
     height: 18px;
-    background-color: #DFBC74;
+    background-color: #39A9A3;
     padding-top: 2px;
     margin-left: -10px;
     margin-right: 0px;
@@ -177,19 +177,19 @@ body{
 .containerproje .slide-container .slide .contentproje .bntproj{
     margin-top: 10px;
     display: inline-block;
-    background: #DFBC74;
+    background: #39A9A3;
     color: #ffffff;
     font-size: 17px;
     padding: 9px 40px;
     border-radius: 5px;
-    border: 2px solid #DFBC74;
+    border: 2px solid #39A9A3;
     font-family: 'Noto Sans', sans-serif;
     text-decoration: none;
 }
 
 .containerproje .slide-container .slide .contentproje .bntproj:hover{
-    background: #d6bb84;
-    border: 2px solid #dfc591;
+    background: #39A9A3;
+    border: 2px solid #39A9A3;
     color: #ffffff;
 }
 
@@ -237,7 +237,7 @@ body{
     top:50%;
     transform: translateY(-50%);
     color: #ffffff;
-    background: #DFBC74;
+    background: #39A9A3;
     height: 50px;
     width: 50px;
     line-height: 50px;
@@ -251,7 +251,7 @@ body{
 .containerproje #prev:hover, 
 .containerproje #next:hover{
     transition: all 1s;
-    background:#dfc38d;
+    background:#39A9A3;
 }
 .containerproje #prev{
     left: 20px;
@@ -303,7 +303,7 @@ body{
 .container{
     display: flex;
     padding-top: 0%;
-    background-color: #DFBC74;
+    background-color: #39A9A3;
     height: 400px;
 }
 
@@ -461,7 +461,7 @@ body{
 
 
 
-
+/*agendamento*/
 .agendamento{
     background-color: #0AA49B;
         width: 100%;
@@ -478,7 +478,9 @@ body{
     margin: auto;
     padding-top: 40px;
     padding-bottom: 10%;
-    padding-left: 370px;
+    padding-left: 200px;
+    letter-spacing: 29px;
+    text-align: center;
 }
 
 .btn-agendamento{
@@ -492,13 +494,45 @@ body{
     background-color: #FFFFFF;
     font-size: 40px;
     font-family: 'Quicksand';
-    font-weight: normal;
+    font-weight: lighter;
     font-style: normal;
     border: none;
     border-radius: 50px;
-    width: 290px;
+    width: 380px;
     height: 70px;
+    padding-left: 90px;
+
+}
+.btn-agendamento:hover{
+    transition: all 0.50s;
+    width: 390px;
+    padding-left: 95px;
+    background-color: #333333;
+    color: #39A9A3;
+
+}
+/*fim do agendamento*/
 
 
+
+
+
+
+
+
+.quemsosmos{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+
+.titulo5{
+    color: #0AA49B;
+    font-size: 60px;
+    font-weight: lighter;
+    font-family: 'Cormorant SC';
+    padding-left: 800px;
 
 }
