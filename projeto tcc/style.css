@@ -477,12 +477,16 @@ body{
     color: #FFFFFF;
     margin: auto;
     padding-top: 40px;
+    padding-bottom: 10%;
+    padding-left: 370px;
 }
 
 .btn-agendamento{
     display: flex;
     align-items: center;
     align-content: center;
+    margin-left: 40%;
+
 
 
     background-color: #FFFFFF;
