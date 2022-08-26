@@ -536,3 +536,46 @@ body{
     padding-left: 800px;
 
 }
+
+.txt{
+    color: #FFFFFF;
+    display: flex;
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+.localizacao{
+    background-color: #0AA49B;
+    height: 600px;
+    width: 1400px;
+    margin-left: 78px;
+}
+
+.titulo6{
+    font-size: 50px;
+    color: #FFFFFF;
+    font-family: 'Cormorant Garamond';
+    font-weight: lighter;
+    padding-left: 550px;
+    letter-spacing: 19px;
+
+}
+
+iframe{
+    width: 800px;
+}
+
+.minimapa{
+    padding-left: 590px;
+    width:10px;
+}
