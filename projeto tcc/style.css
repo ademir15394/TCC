@@ -421,6 +421,7 @@ body{
     font-size: 26px;
     font-weight: normal;
     font-family: 'Quicksand';
+    letter-spacing: 5px;
 }
 
 .pt{
@@ -432,7 +433,9 @@ body{
     font-size: 35px;
     font-family: 'Quicksand';
     font-weight:normal;
-    font-style: none;
+    font-style:normal;
+    text-decoration: none;
+    
 
 
     background-color: #0AA49B;
@@ -542,8 +545,9 @@ body{
     color: #FFFFFF;
     display: flex;
     text-align: center;
-    font-size: 28px;
+    font-size: 30px;
     padding-bottom: 40px;
+    letter-spacing: 2px;
 }
 
 
