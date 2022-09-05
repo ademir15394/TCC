@@ -644,4 +644,24 @@ iframe{
 .Rede_Social{
     width: auto;
     height: 300px;
+
+}
+
+
+.btn{
+    display: inline-block;
+    background-color: #00C2B8;
+    height: 110px;
+    width: 110px;
+    margin-left: 300px;
+    margin-right: 140px;
+    border-radius: 50%;
+    margin-top: 100px;
+
+}
+
+.img-09{
+    width: 105px;
+    height: 110px;
+    margin-left: 2px;
 }
