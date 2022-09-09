@@ -1,5 +1,6 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 
 :root{
     --cor-principal-texto:#000000;
@@ -146,13 +147,26 @@ body{
 img{
     width: 500px;
     height: 400px;
-    margin-left: 10px;
     margin-top: 26px;
+    margin-right: 80px;
+    float: left;
 }
 
 .titulo1{
     color: #FFFFFF;
+    font-family: 'Cormorant SC';
+    font-weight: lighter;
+    font-size: 37px;
 }
 
-con
+li.texto1{
+    color:#FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 27px;
+    font-weight: 400;
+    list-style: none;
+    margin-bottom: 9px;
+}
+
+
 
