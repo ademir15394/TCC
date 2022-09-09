@@ -473,7 +473,9 @@ body{
 }
 
 .titulo4{
-    
+    display: flex;
+    justify-content: center;
+
     font-family: 'Quicksand';
     font-size: 60px;
     font-weight: normal;
@@ -481,13 +483,13 @@ body{
     margin: auto;
     padding-top: 40px;
     padding-bottom: 10%;
-    padding-left: 200px;
     letter-spacing: 29px;
     text-align: center;
 }
 
 .btn-agendamento{
     display: flex;
+
     align-items: center;
     align-content: center;
     margin-left: 40%;
@@ -532,11 +534,12 @@ body{
 
 
 .titulo5{
+    display: flex;
+    justify-content: center;
     color: #0AA49B;
     font-size: 60px;
     font-weight: lighter;
     font-family: 'Cormorant SC';
-    padding-left: 800px;
 
 }
 
