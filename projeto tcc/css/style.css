@@ -46,24 +46,30 @@ body{
     font-size: 26px;
     color: #FFFFFF;
 
-   
-    padding-left: 100px;
-    padding-right: 70px;
-    
-
+       
+    margin-left: 90px;
+    margin-right: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20px;
+    width: auto;
     text-decoration: none;
     height: 100%;
+}
+
+.navbar__links:hover{
+    color: #39A9A3;
+    border-bottom: .1rem solid #39A9A3;
+    padding-bottom: .5rem;
+    transition: linear .2s;
 }
 
 
 
   .navbar__menu_2{
+      width: auto;
     align-items: unset;
-    padding-top: 4px;
+    padding-top: 2px;
     padding-left: 70%;
     display: flex;
     align-items: center;
@@ -79,11 +85,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 130px;
+    width: auto;
+    margin-right: 200px;
     text-decoration: none;
     height: 100%;
 
   }
+
+  .navbar__links_2:hover{
+    color: #39A9A3;
+    border-bottom: .1rem solid #39A9A3;
+    padding-bottom: .5rem;
+    transition: linear .2s;
+}
 
 .titulo{
     
@@ -103,7 +117,7 @@ body{
 
 .barra{
     width: auto;
-    height: 18px;
+    height: 22px;
     background-color: #39A9A3;
     padding-top: 2px;
     margin-left: -10px;
@@ -455,6 +469,7 @@ body{
     transition: all 0.50s;
     width: 290px;
     height: 59px;
+    letter-spacing: 4px;
 }
 
 
@@ -495,14 +510,12 @@ body{
 
 .btn-agendamento{
     display: flex;
-
+    text-decoration: none;
     align-items: center;
     align-content: center;
-    margin-left: 40%;
-
     justify-content: center;
-
-    background-color: #FFFFFF;
+    margin-left: 38pc;
+    background-color: #ffffff;
     font-size: 40px;
     font-family: 'Quicksand';
     font-weight: lighter;
@@ -514,11 +527,18 @@ body{
 
 
 }
+
+.link-agendamento{
+    text-decoration: none;
+    color:#39A9A3;
+}
+
 .btn-agendamento:hover{
     transition: all 0.50s;
     width: 390px;
     background-color: #000000;
     color: #00C2B8;
+    letter-spacing: 5px;
 
 }
 /*fim do agendamento*/
@@ -567,10 +587,11 @@ body{
 
 
 .localizacao{
+
     background-color: #0AA49B;
     height: 600px;
     width: 1400px;
-    margin-left: 78px;
+    margin-left: 178px;
     padding-bottom: 0px;
 }
 
