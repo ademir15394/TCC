@@ -765,28 +765,31 @@ iframe{
 
 
 .form{
-padding-top: 300px;
+    padding-top: 300px;
     width: auto;
-display: flex;
-justify-content: center;
+    justify-content: center;
 }
 
 /*estilo input*/
 
+.descri-input{
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-left: 550px;
+}
 
 .input_text{
-    font-family:  'Quicksand', sans-serif ;
-    font-size: 25px;
-    width: 500px;
-    border: 0;
-    border-bottom: 2px solid #39A9A3;
-    outline: 0;
-    color: #FFFFFF;
-    background:transparent;
-    transition: 0.2s;
-    margin-left: 29px;
+    font-family: 'Quicksand';
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    width: 1000px;
+    height: 60px;
+    margin-bottom: 70px;
+    margin-left: 370px;
+    font-size: 30px;
+    border-radius: 50px;
+    padding-left: 20px;
+
 }
 
 
