@@ -136,7 +136,6 @@ body{
     margin: 0;
 
 }
-
 /*fim da navbar*/
 
 
@@ -222,7 +221,7 @@ body{
 }
 
 .containerproje .slide-container:nth-child(1) .slide{
-    background: url(/img/img-carrosel1.jpg);
+    background: url(../img/img-carrosel1.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
@@ -232,7 +231,7 @@ body{
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
-    background: url(/img/img-carrosel2.jpg);
+    background: url(../img/img-carrosel2.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
@@ -242,7 +241,7 @@ body{
 }
 
 .containerproje .slide-container:nth-child(3) .slide{
-    background: url(/img/img-carrosel3.jpg);
+    background: url(../img/img-carrosel3.jpg);
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
@@ -427,12 +426,10 @@ body{
 }
 
 .subtitulo{
-    font-weight: 200;
+    font-family:'Cormorant SC';
+    font-weight: lighter;
     color: #FFFFFF;
-    font-size: 36px;
-    font-family: 'Cormorant Garamond' ;
-
-
+    font-size: 40px;
 
 }
 
@@ -809,12 +806,91 @@ iframe{
     width: 20px;
     height: 26px;
     background-color: #000000;
+    margin-left:41px;
+    margin-right:50px;
 
+}
+
+.conf1{
+    color: #FFFFFF;
+    width: 20px;
+    height: 26px;
+    background-color: #000000;
+    margin-left:278px;
+    margin-right:50px;
+
+}
+
+.conf2{
+    color: #FFFFFF;
+    width: 20px;
+    height: 26px;
+    background-color: #000000;
+    margin-left:266px;
+    margin-right:50px;
+
+}
+
+.conf3{
+    color: #FFFFFF;
+    width: 20px;
+    height: 26px;
+    background-color: #000000;
+    margin-left:209px;
+    margin-right:50px;
 
 }
 
 .conf-text{
     color: #FFFFFF;
-    font-size: 18px;
+    font-size: 27px;
+    font-family:"Quicksand";
+
 }
+
+.botoes{
+    padding-top: 25px;
+}
+
+.btn-saiba-gen1{
+ 
+    font-size: 35px;
+    font-family: 'Quicksand';
+    font-weight:normal;
+    font-style:normal;
+    text-decoration: none;
+    
+
+
+    background-color: #0AA49B;
+    color: #FFFFFF;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    margin-left: 55px;
+    margin-right: 189px;
+}
+
+.btn-saiba-gen1-text{
+ 
+    font-size: 35px;
+    font-family: 'Quicksand';
+    font-weight:normal;
+    font-style:normal;
+    text-decoration: none;
+    
+
+
+    background-color: #0aa49a00;
+    color: #FFFFFF;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    width: auto;
+    margin-left: 5px;
+
+}
+
+
 
