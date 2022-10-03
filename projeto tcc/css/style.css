@@ -513,7 +513,7 @@ body{
     align-items: center;
     align-content: center;
     justify-content: center;
-    margin-left: 48pc;
+    margin-left: 38pc;
     background-color: #ffffff;
     font-size: 40px;
     font-family: 'Quicksand';
@@ -590,7 +590,7 @@ body{
     background-color: #0AA49B;
     height: 600px;
     width: 1400px;
-    margin-left: 250px;
+    margin-left: 178px;
     padding-bottom: 0px;
 }
 
@@ -609,7 +609,7 @@ iframe{
 }
 
 .minimapa{
-    padding-left: 360px;
+    padding-left: 590px;
     width:10px;
 }
 
@@ -769,8 +769,13 @@ iframe{
 
 /*estilo input*/
 
+.descri-input{
+    color: #FFFFFF;
+    font-size: 28px;
+    margin-left: 550px;
+}
+
 .input_text{
-    background-color: #ffffff;
     font-family: 'Quicksand';
     display: flex;
     justify-content: center;
@@ -788,9 +793,7 @@ iframe{
 /*fim estilo input*/
 
 .finalis{
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
+    padding-top: 200px;
 }
 .img-proce1{
     width: 400px;
@@ -889,33 +892,55 @@ iframe{
 
 }
 
-.finalizar{
-    padding-top: 200px;
-    display: flex;
-    justify-content: center;
-}
 
-.btn-fi{
-    font-size: 39px;
-    font-family: 'Quicksand';
-    font-weight:normal;
-    font-style:normal;
-    text-decoration: none;
+@media screen and (max-width: 600px){
+    .btn{
+        display: inline-block;
+        background-color: #0AA49B;
+        height: 110px;
+        width: 110px;
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 50%;
+        margin-top: 10px;
     
+    }
+    .btn-agendamento{
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin-left: 5pc;
+        font-size: 40px;
+        font-weight: lighter;
+        font-style: normal;
+        border: none;
+        border-radius: 50px;
+        width: 200px;
+        height: 70px;
+    }
 
+    .link-agendamento{
+        font-size: 30px;
+        text-decoration: none;
+        color:#39A9A3;
+    }
 
-    background-color: #0AA49B;
-    color: #ffffff;
-    height: 67px;
-    align-items: center;
-    align-content: center;
-    width: 280px;
-    letter-spacing: 5px;
-}
+    .titulo4{
+        display: flex;
+        justify-content: center;
+    
+        font-family: 'Quicksand';
+        font-size: 24px;
+        font-weight: normal;
+        color: #FFFFFF;
+        margin: auto;
+        padding-top: 40px;
+        padding-bottom: 10%;
+        letter-spacing: 18px;
+        text-align: center;
+    }
 
-.btn-fi:hover{
-    background-color: #151515;
-    color: #00C2B8;
-    letter-spacing: 7px;
-    transition: all 0.2s;
+    
 }
