@@ -42,30 +42,52 @@
 
 
 <!--agendamento-->
+<div class="finalis">
 
 <form action="#" method="get" onsubmit="abrirWhatsapp()">
+
   <input class="input_text" type="text" name="nome" id="nome" placeholder="Nome" required /><br />
-  <input type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
-  <input type="email" name="email" id="email" placeholder="E-mail" required /><br />
-  <textarea name="msg" id="msg" placeholder="Mensagem" rows="5" required></textarea><br />
-  <button type="submit">Enviar dados p/ Whatsapp</button>
+
+  <input class="input_text" type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
+
+  <input class="input_text" type="date" name="date" id="date" placeholder="Dia/Més/Ano" required /><br />
+
+  <input class="input_text" type="text" placeholder="procedimento">
+
+  
+
+  <button class="btn-fi" type="submit">Enviar</button>
+
 </form>
+
+</div>
+
+
+
 <script>
+
       function abrirWhatsapp() {
 var nome = document.getElementById("nome").value;
 var telefone = document.getElementById("telefone").value;
-var email = document.getElementById("email").value;
+var date= document.getElementById("date").value;
+var manicuri = document.getElementById("manicuri").value;
+var pedicuri = document.getElementById("pedicuri").value;
+var alongamento = document.getElementById("alongamento").value;
 var msg = document.getElementById("msg").value;
 var url = "https://wa.me/5511975258330?text=" // Seu numero
   + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
   + "%0a" // Quebra de linha
   + "*Nome*: " + nome + "%0a" // Dados do formulário
   + "*Telefone*: " + telefone + "%0a"
-  + "*E-mail*: " + email + "%0a"
-  + "*Mensagem*: " + msg;
+  + "*E-mail*: " + date + "%0a"
+  + "*Mensagem*:" + manicuri + "%0a"
+  + "*Mensagem*:" + pedicuri;
 window.open(url, '_blank').focus();
 }
 </script>
+
+
+
 
 <script src="/app.js"></script>
 </body>

@@ -770,6 +770,7 @@ iframe{
 /*estilo input*/
 
 .input_text{
+    background-color: #ffffff;
     font-family: 'Quicksand';
     display: flex;
     justify-content: center;
@@ -787,7 +788,9 @@ iframe{
 /*fim estilo input*/
 
 .finalis{
-    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
 }
 .img-proce1{
     width: 400px;
@@ -902,12 +905,17 @@ iframe{
 
 
     background-color: #0AA49B;
-    color: #FFFFFF;
+    color: #ffffff;
     height: 67px;
     align-items: center;
     align-content: center;
     width: 280px;
-    margin-left: 55px;
-    margin-right: 189px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
+}
+
+.btn-fi:hover{
+    background-color: #151515;
+    color: #00C2B8;
+    letter-spacing: 7px;
+    transition: all 0.2s;
 }
