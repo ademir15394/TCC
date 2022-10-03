@@ -42,52 +42,53 @@
 
 
 <!--agendamento-->
-
-<div class="form">
-
-<label for="" class="descri-input">Nome</label>
- <input type="text" class="input_text" placeholder="Nome">
-
- <input type="text" class="input_text" placeholder="Telefone">
-
- <input type="date" class="input_text" placeholder="Dia para agendar">
-
-</div>
-<br>
-<!--fim agendamento-->
-
-
-
-
-
 <div class="finalis">
 
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-<br>
-<br>
+<form action="#" method="get" onsubmit="abrirWhatsapp()">
 
-<input class="conf" type="checkbox" name="" id=""><label class="conf-text" for="">Pedicuri</label>
+  <input class="input_text" type="text" name="nome" id="nome" placeholder="Nome" required /><br />
 
-<input class="conf1" type="checkbox" name="" id=""><label class="conf-text" for="">Manicuri</label>
+  <input class="input_text" type="tel" name="telefone" id="telefone" placeholder="Telefone" required /><br />
 
-<input class="conf2" type="checkbox" name="" id=""><label class="conf-text" for="">Alongamento</label>
+  <input class="input_text" type="date" name="date" id="date" placeholder="Dia/Més/Ano" required /><br />
 
-<input class="conf3" type="checkbox" name="" id=""><label class="conf-text" for="">Sobrancelha</label>
+  <input type="checkbox" >
 
-</div>
+  
 
+  <button class="btn-fi" type="submit">Enviar</button>
 
-<div class="botoes">
-
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
+</form>
 
 </div>
-<br>
+
+
+
+<script>
+
+      function abrirWhatsapp() {
+var nome = document.getElementById("nome").value;
+var telefone = document.getElementById("telefone").value;
+var date= document.getElementById("date").value;
+var manicuri = document.getElementById("manicuri").value;
+var pedicuri = document.getElementById("pedicuri").value;
+var alongamento = document.getElementById("alongamento").value;
+var msg = document.getElementById("msg").value;
+var url = "https://wa.me/5511975258330?text=" // Seu numero
+  + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+  + "%0a" // Quebra de linha
+  + "*Nome*: " + nome + "%0a" // Dados do formulário
+  + "*Telefone*: " + telefone + "%0a"
+  + "*E-mail*: " + date + "%0a"
+  + "*Mensagem*:" + manicuri + "%0a"
+  + "*Mensagem*:" + pedicuri;
+window.open(url, '_blank').focus();
+}
+</script>
+
+
+
+
+<script src="/app.js"></script>
 </body>
 </html>
