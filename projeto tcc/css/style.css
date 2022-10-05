@@ -941,6 +941,58 @@ iframe{
         letter-spacing: 18px;
         text-align: center;
     }
+    .localizacao{
 
+        background-color: #0AA49B;
+        height: 600px;
+        width: 470px;
+        margin-left: 20px;
+        padding-bottom: 0px;
+    }
+    .minimapa{
+        padding-left: 160px;
+        width:10px;
+    }
+    iframe{
+        width: 290px;
+    }
+    .titulo6{
+        padding-left: 70px;
+        font-size: 35px;
+    }
+    .navbar__links_2{
+        margin-right: 20px;
+        font-size: 22px;
+    }
+    .navbar__links{
+        margin-left: 10px;
+        font-size: 22px;
+        margin-right: 10px;
+    }
+    .navbar__menu_2{
+        padding-left: 55%;
+    }
+    .titulo{
+        font-size: 35px;
+        height: 54px;
+    }
+    .img1{
+        width: 380px;
+    }
+    .btn{
+        height: 80px;
+        width: 80px;
+        margin-left: 32px;
+        margin-right: 20px;
+        border-radius: 50%;
+        margin-top: 100px;
     
+    }
+    .img-09{
+            width: 76px;
+            height: 76px;
+            margin-left: 0,30px;
+            margin-top: 2px;
+    }
+
 }

@@ -15,7 +15,7 @@
     
  <nav class="nav">
 
-     <h1 class="titulo"> <a class="titulo" href="index.htm"> Espaço Queen</a></h1>
+     <h1 class="titulo"> <a class="titulo" href="index.html"> Espaço Queen</a></h1>
        
 
      <ul class="navbar__menu">
@@ -45,15 +45,13 @@
 
 <div class="form">
 
-<label for="" class="descri-input">Nome</label>
- <input type="text" class="input_text" placeholder="Nome">
+  <form action="#" method="get" onsubmit="abrirWhatsapp()">
 
- <input type="text" class="input_text" placeholder="Telefone">
+ <input type="text" class="input_text" placeholder="Nome" id="nome" required>
 
- <input type="date" class="input_text" placeholder="Dia para agendar">
+ <input type="date" class="input_text" placeholder="Dia para agendar" id="date" required>
 
 </div>
-<br>
 <!--fim agendamento-->
 
 
@@ -69,17 +67,17 @@
 <br>
 <br>
 
-<input class="conf" type="checkbox" name="" id=""><label class="conf-text" for="">Pedicuri</label>
+<input class="conf" type="checkbox" name="check" id="pedicuri" value="pedicuri" ><label class="conf-text" for="">Pedicuri</label>
 
-<input class="conf1" type="checkbox" name="" id=""><label class="conf-text" for="">Manicuri</label>
+<input class="conf1" type="checkbox" name="check" id="manicuri" value="manicuri" "><label class="conf-text" for="">Manicuri</label>
 
-<input class="conf2" type="checkbox" name="" id=""><label class="conf-text" for="">Alongamento</label>
+<input class="conf2" type="checkbox" name="check" id="alongamento" value="alongamento" ><label class="conf-text" for="">Alongamento</label>
 
-<input class="conf3" type="checkbox" name="" id=""><label class="conf-text" for="">Sobrancelha</label>
+<input class="conf3" type="checkbox" name="check" id="sobrancelha" value="sobrancelha" ><label class="conf-text" for="">Sobrancelha</label>
 
 </div>
 
-
+<button id="btnSelecionar">Selecionar</button>
 <div class="botoes">
 
   <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
@@ -88,6 +86,48 @@
   <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
 
 </div>
-<br>
+<button id="btn-enviar" class="btn-fi" type="submit">Enviar</button>
+<ul id="selecaop">
+
+</ul>
+</form>
+<script>
+  
+        function abrirWhatsapp() {
+  var nome = document.getElementById('nome').value;
+  var date = document.getElementById('date').value;
+
+  var Procedimento = ["Pedicuri", "Manicuri", "Alongamento", "Sobrancelha"];
+			
+			document.addEventListener("DOMContentLoaded", function(){
+				document.getElementById("btnSelecionar").addEventListener("click", function(){ 
+				
+					var elementos = document.getElementsByClass("check"); 
+					
+					for(i = 0; i < elementos.length; i++){
+						if(elementos[i].checked){ 
+							document.getElementById("selecaop").innerHTML += "<li>"+Procedimento[i]+"</li>"; 
+							
+						}
+					}
+					
+					document.getElementById("btn-enviar").disabled = "disabled"; //Desativamos o botão.
+				});
+			});
+  var proce = document.getElementById("btn-enviar").innerText;
+  var mani = document.getElementById('manicuri').value;
+  var url = "https://wa.me/5511975258330?text=" // Seu numero
+    + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
+    + "%0a" // Quebra de linha
+    + "*Nome*: " + nome + "%0a" // Dados do formulário
+    + "*E-mail*: " + date + "%0a"
+    +"*Procedimento*" + proce + "%0a"
+    + "*Mensagem*:" + mani ;
+  window.open(url, '_blank').focus();
+
+
+}
+  </script>
+
 </body>
 </html>
