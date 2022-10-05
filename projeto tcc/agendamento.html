@@ -76,8 +76,9 @@
 <input class="conf3" type="checkbox" name="check" id="sobrancelha" value="sobrancelha" ><label class="conf-text" for="">Sobrancelha</label>
 
 </div>
+<button id="btnSelecionar">Confimar</button>
+<form action="#" method="get" onsubmit="abrirWhatsapp()">
 
-<button id="btnSelecionar">Selecionar</button>
 <div class="botoes">
 
   <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
@@ -86,43 +87,47 @@
   <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
 
 </div>
+
 <button id="btn-enviar" class="btn-fi" type="submit">Enviar</button>
-<ul id="selecaop">
+
+<ul id="selecaop" class="teste">
 
 </ul>
 </form>
-<script>
-  
-        function abrirWhatsapp() {
-  var nome = document.getElementById('nome').value;
-  var date = document.getElementById('date').value;
+</div>
 
-  var Procedimento = ["Pedicuri", "Manicuri", "Alongamento", "Sobrancelha"];
+<script>
+
+var proce = ["Pedicuri","Manicuri","Alongamento","Sobrancelha"];
+		
 			
 			document.addEventListener("DOMContentLoaded", function(){
 				document.getElementById("btnSelecionar").addEventListener("click", function(){ 
 				
-					var elementos = document.getElementsByClass("check"); 
+					var elementos = document.getElementsByName("check");
 					
 					for(i = 0; i < elementos.length; i++){
-						if(elementos[i].checked){ 
-							document.getElementById("selecaop").innerHTML += "<li>"+Procedimento[i]+"</li>"; 
+						if(elementos[i].checked){
+							document.getElementById("selecaop").innerHTML += "<li>"+proce[i]+"</li>"; 
 							
 						}
 					}
 					
-					document.getElementById("btn-enviar").disabled = "disabled"; //Desativamos o botão.
+					document.getElementById("btnSelecionar").disabled = "disabled"; 
 				});
 			});
-  var proce = document.getElementById("btn-enviar").innerText;
-  var mani = document.getElementById('manicuri').value;
+
+  
+        function abrirWhatsapp() {
+  var nome = document.getElementById('nome').value;
+  var date = document.getElementById('date').value;
+  var pr = document.getElementById("selecaop").innerText;
   var url = "https://wa.me/5511975258330?text=" // Seu numero
     + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
     + "%0a" // Quebra de linha
     + "*Nome*: " + nome + "%0a" // Dados do formulário
     + "*E-mail*: " + date + "%0a"
-    +"*Procedimento*" + proce + "%0a"
-    + "*Mensagem*:" + mani ;
+    +"*Procedimento*" + pr;
   window.open(url, '_blank').focus();
 
 
