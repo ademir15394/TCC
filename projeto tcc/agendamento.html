@@ -42,59 +42,47 @@
 
 
 <!--agendamento-->
-
+<form action="#" method="get" onsubmit="abrirWhatsapp()">
 <div class="form">
 
-  <form action="#" method="get" onsubmit="abrirWhatsapp()">
-
- <input type="text" class="input_text" placeholder="Nome" id="nome" required>
-
- <input type="date" class="input_text" placeholder="Dia para agendar" id="date" required>
-
-</div>
-<!--fim agendamento-->
-
-
-
-
-
-<div class="finalis">
-
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-  <img class="img-proce1" src="img/procedimento1.jpg" alt="">
-<br>
-<br>
-
-<input class="conf" type="checkbox" name="check" id="pedicuri" value="pedicuri" ><label class="conf-text" for="">Pedicuri</label>
-
-<input class="conf1" type="checkbox" name="check" id="manicuri" value="manicuri" "><label class="conf-text" for="">Manicuri</label>
-
-<input class="conf2" type="checkbox" name="check" id="alongamento" value="alongamento" ><label class="conf-text" for="">Alongamento</label>
-
-<input class="conf3" type="checkbox" name="check" id="sobrancelha" value="sobrancelha" ><label class="conf-text" for="">Sobrancelha</label>
-
-</div>
-<button id="btnSelecionar">Confimar</button>
-<form action="#" method="get" onsubmit="abrirWhatsapp()">
-
-<div class="botoes">
-
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
-  <button class="btn-saiba-gen1"> <a class="btn-saiba-gen1-text" href="/procedimentos/procedimento1.html" target="_blank"> Saiba Mais </a> </button>
+<input class="campo" type="text" placeholder="Nome" id="nome" required>
+<input class="campo" type="date" placeholder="Data" id="date" required>
 
 </div>
 
-<button id="btn-enviar" class="btn-fi" type="submit">Enviar</button>
+<div class="sessao">
+  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Manicuri</label><br>
+  <button class="btn-saiba-sessao">Saiba Mais</button>
 
+</div>
+<div class="sessao">
+  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Pedicuri</label><br>
+  <button class="btn-saiba-sessao">Saiba Mais</button>
+</div>
+<div class="sessao">
+  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Alongamento</label><br>
+  <button class="btn-saiba-sessao">Saiba Mais</button>
+</div>
+<div class="sessao">
+  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Sobrancelha</label><br>
+  <button class="btn-saiba-sessao">Saiba Mais</button>
+</div>
+
+<button class="confimar" id="btnSelecionar">Confimar</button>
+
+<button class="confimar" type="submit">Finalizar</button>
 <ul id="selecaop" class="teste">
 
 </ul>
 </form>
-</div>
+<br>
+<br>
+
+<!--fim agendamento-->
 
 <script>
 
@@ -113,8 +101,8 @@ var proce = ["Pedicuri","Manicuri","Alongamento","Sobrancelha"];
 						}
 					}
 					
-					document.getElementById("btnSelecionar").disabled = "disabled"; 
-				});
+					document.getElementById("btnSelecionar").disabled = "disabled";
+        				});
 			});
 
   
