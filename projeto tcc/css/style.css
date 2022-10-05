@@ -760,7 +760,7 @@ iframe{
 
 
 
-
+/*formulario*/
 .form{
     padding-top: 300px;
     width: auto;
@@ -893,6 +893,7 @@ iframe{
 }
 
 
+/* celular*/
 @media screen and (max-width: 600px){
     .btn{
         display: inline-block;
@@ -944,21 +945,23 @@ iframe{
     .localizacao{
 
         background-color: #0AA49B;
-        height: 600px;
-        width: 470px;
-        margin-left: 20px;
+        height: 500px;
+        width: 360px;
+        margin-left: 10px;
         padding-bottom: 0px;
     }
     .minimapa{
-        padding-left: 160px;
+        padding-left: 100px;
         width:10px;
     }
     iframe{
-        width: 290px;
+        width: 250px;
+        height: 350px;
     }
     .titulo6{
         padding-left: 70px;
-        font-size: 35px;
+        font-size: 25px;
+        letter-spacing: 15px;
     }
     .navbar__links_2{
         margin-right: 20px;
@@ -977,22 +980,40 @@ iframe{
         height: 54px;
     }
     .img1{
-        width: 380px;
+        width: 280px;
     }
     .btn{
-        height: 80px;
-        width: 80px;
-        margin-left: 32px;
+        height: 60px;
+        width: 60px;
+        margin-left: 40px;
         margin-right: 20px;
         border-radius: 50%;
         margin-top: 100px;
     
     }
     .img-09{
-            width: 76px;
-            height: 76px;
-            margin-left: 0,30px;
-            margin-top: 2px;
+            width: 58px;
+            height: 58px;
+            margin-left: 1.30px;
+            margin-top: 0.60px;
+    }
+    .texto1{
+        font-size: 20px;
+    }
+    .btn-saiba{
+        font-size: 25px;
+        height: 44px;
+        width: 170px;
+        margin-left: 7px;
+    }
+    .subtitulo{
+        font-size: 30px;
+    }
+    .titulo3{
+        font-size: 30px;
+        margin: 0;
+        letter-spacing: 10px;
     }
 
 }
+/* celular*/
