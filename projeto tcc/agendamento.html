@@ -10,71 +10,79 @@
 <body>
     
 
- <!--navbar-->
- <div class="barra"></div>
-    
- <nav class="nav">
-
-     <h1 class="titulo"> <a class="titulo" href="index.html"> Espaço Queen</a></h1>
-       
-
-     <ul class="navbar__menu">
-         <li class="navbar__item">
-           <a href="#home" class="navbar__links" id="home-page">Home</a>
-         </li>
-         <li class="navbar__item">
-           <a href="#about" class="navbar__links" id="about-page">About</a>
-         </li>
-         
-       </ul>
-
-       <ul class="navbar__menu_2">
-         <li class="navbar__item_2">
-           <a href="#home" class="navbar__links_2" id="home-page">Home</a>
-         </li>
-         <li class="navbar__item_2">
-           <a href="#about" class="navbar__links_2" id="about-page">About</a>
-         </li>
-         
-       </ul>
- </nav>
+ <!-- Navbar Section -->
+ <nav class="navbar">
+  <div class="navbar__container">
+  <a href="#home" id="navbar__logo">Espaço Queen</a>
+    <div class="navbar__toggle" id="mobile-menu">
+      <span class="bar"></span> <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <ul class="navbar__menu">
+      <li class="navbar__item">
+        <a href="#home" class="navbar__links" id="home-page">Home</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#about" class="navbar__links" id="about-page">About</a>
+      </li>
+      <li class="navbar__item">
+        <a href="#services" class="navbar__links" id="services-page"
+          >Services</a
+        >
+      </li>
+    </ul>
+    <ul class="navbar__menu2">
+      <li class="navbar__item2">
+        <a href="#home" class="navbar__links2" id="home-page">Home</a>
+      </li>
+      <li class="navbar__item2">
+        <a href="#about" class="navbar__links2" id="about-page">About</a>
+      </li>
+      <li class="navbar__item2">
+        <a href="#services" class="navbar__links2" id="services-page"
+          >Services</a
+        >
+      </li>
+    </ul>
+  </div>
+</nav>
  <!--fim da navbar-->
 
 
 <!--agendamento-->
-<form action="#" method="get" onsubmit="abrirWhatsapp()">
+<form action="" method="get" onsubmit="abrirWhatsapp()" >
 <div class="form">
 
-<input class="campo" type="text" placeholder="Nome" id="nome" required>
-<input class="campo" type="date" placeholder="Data" id="date" required>
+<input class="campo" type="text" placeholder="Nome" id="nome" >
+<input class="campo" type="date" placeholder="Data" id="data" >
 
 </div>
 
 <div class="sessao">
-  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Manicuri</label><br>
+  <img class="img_sessao" src="img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id="manicure" value="manicure"><label for="" class="textobt">Manicuri</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 
 </div>
 <div class="sessao">
-  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Pedicuri</label><br>
+  <img class="img_sessao" src="img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id="pedicure"><label for="" class="textobt">Pedicuri</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 </div>
 <div class="sessao">
-  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Alongamento</label><br>
+  <img class="img_sessao" src="img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id="alongamento"><label for="" class="textobt">Alongamento</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 </div>
 <div class="sessao">
-  <img class="img_sessao" src="/img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id=""><label for="" class="textobt">Sobrancelha</label><br>
+  <img class="img_sessao" src="img/procedimento1.jpg" alt="">
+  <input class="bt01" type="checkbox" name="check" id="sombrancelha"><label for="" class="textobt">Sobrancelha</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 </div>
 
-<button class="confimar" id="btnSelecionar">Confimar</button>
-
-<button class="confimar" type="submit">Finalizar</button>
+<!--<button onClick="validar()" class="confimar" id="btnSelecionar">Confimar</button>
+-->
+<button id="btsele" class="confimar" type="submit" >Finalizar</button>
 <ul id="selecaop" class="teste">
 
 </ul>
@@ -85,12 +93,41 @@
 <!--fim agendamento-->
 
 <script>
+/*
+function validar(){
+  //alert("estou aqui");
+  var data = document.getElementById("data").value;
+  var nome = document.getElementById("nome").value;
+  var manicure = document.getElementById("manicure").value;
+  var pedicure = document.getElementById("pedicure").value;
+  /*var manicure = document.getElementById("manicure").value;
+  var manicure = document.getElementById("manicure").value;
 
-var proce = ["Pedicuri","Manicuri","Alongamento","Sobrancelha"];
+if(nome === ""){
+    alert("O campo não pode ser vazio");
+  }
+if(data === ""){
+    alert("O campo não pode ser vazio");
+  }
+
+  if(manicure.checked){
+    selecao += manicure.value;
+    alert(selecao + "checado");
+  }
+  
+
+}
+*/
+
+
+
+
+
+var proce = ["Manicuri","Pedicuri","Alongamento","Sobrancelha"];
 		
 			
 			document.addEventListener("DOMContentLoaded", function(){
-				document.getElementById("btnSelecionar").addEventListener("click", function(){ 
+				document.getElementById("btsele").addEventListener("click", function(){ 
 				
 					var elementos = document.getElementsByName("check");
 					
@@ -101,14 +138,23 @@ var proce = ["Pedicuri","Manicuri","Alongamento","Sobrancelha"];
 						}
 					}
 					
-					document.getElementById("btnSelecionar").disabled = "disabled";
+					document.getElementById("btsele").disabled;
+      
+          
+
         				});
 			});
+
+      function mudarcor(){
+             let cor= document.getElementById("btsele");
+            cor.style.backgroundColor="#900";
+           window.alert("procedimento escolhido se caso escolheu o errado recarregue a pagina");
+      }
 
   
         function abrirWhatsapp() {
   var nome = document.getElementById('nome').value;
-  var date = document.getElementById('date').value;
+  var date = document.getElementById('data').value;
   var pr = document.getElementById("selecaop").innerText;
   var url = "https://wa.me/5511975258330?text=" // Seu numero
     + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
@@ -122,5 +168,6 @@ var proce = ["Pedicuri","Manicuri","Alongamento","Sobrancelha"];
 }
   </script>
 
+<script src="app.js"></script>
 </body>
 </html>
