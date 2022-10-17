@@ -592,9 +592,6 @@ ul {
 
 
 /*sessao de procedimento*/
- .bct{
-     margin-bottom: 200px;
- }
 
 .procedimento{
 
@@ -630,8 +627,6 @@ ul {
     
 }
 
-
-
 .subtitulo{
     font-family:'Cormorant SC';
     font-weight: lighter;
@@ -649,7 +644,8 @@ ul {
 }
 
 .pt{
-     padding-top: 16%;
+     padding-top: 3%;
+
 }
 
 .btn-saiba{
@@ -796,8 +792,8 @@ ul {
 
     background-color: #0AA49B;
     height: 600px;
-    width: 1400px;
-    margin-left: 178px;
+    width: 1079px;
+    margin-left: 250px;
     padding-bottom: 0px;
 }
 
@@ -806,7 +802,7 @@ ul {
     color: #FFFFFF;
     font-family: 'Cormorant Garamond';
     font-weight: lighter;
-    padding-left: 550px;
+    padding-left: 337px;
     letter-spacing: 19px;
 
 }
@@ -816,7 +812,7 @@ iframe{
 }
 
 .minimapa{
-    padding-left: 590px;
+    margin-left: 141px;
     width:10px;
 }
 
@@ -1182,9 +1178,6 @@ iframe{
 .img_sessao{
     width: 370px;
 }
-}    
-/*cadastro mobile*/
-
-@media screen and (max-width:1546px){
     
-}
+
+}/*cadastro mobile*/
