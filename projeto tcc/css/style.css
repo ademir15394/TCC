@@ -592,6 +592,9 @@ ul {
 
 
 /*sessao de procedimento*/
+ .bct{
+     margin-bottom: 200px;
+ }
 
 .procedimento{
 
@@ -627,6 +630,8 @@ ul {
     
 }
 
+
+
 .subtitulo{
     font-family:'Cormorant SC';
     font-weight: lighter;
@@ -644,7 +649,7 @@ ul {
 }
 
 .pt{
-     padding-top: 3%;
+     padding-top: 16%;
 }
 
 .btn-saiba{
@@ -1177,6 +1182,9 @@ iframe{
 .img_sessao{
     width: 370px;
 }
-    
+}    
+/*cadastro mobile*/
 
-}/*cadastro mobile*/
+@media screen and (max-width:1546px){
+    
+}
