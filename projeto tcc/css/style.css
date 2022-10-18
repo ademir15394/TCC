@@ -642,9 +642,13 @@ ul {
     font-family: 'Quicksand';
     letter-spacing: 5px;
 }
+.bct{
+    margin-bottom: 260px;
+    width: 860px;
+}
 
 .pt{
-     padding-top: 3%;
+     padding-top: 29%;
 
 }
 
@@ -871,10 +875,14 @@ iframe{
 
 }
 
+.nome-det{
+    font-weight: 600;
+}
+
 .img-proce{
-    width: 500px;
-    height: 400px;
-    margin-top: 26px;
+    width: 400px;
+
+    margin-top: 10px;
     margin-right: 80px;
     float: left;
 }
