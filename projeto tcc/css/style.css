@@ -1106,6 +1106,11 @@ iframe{
         font-size: 25px;
         letter-spacing: 15px;
     }
+    .txt-local{
+        width: 312px;
+        margin: -103px;
+        font-size: 23px;
+    }
     .navbar__links2{
         margin-right: 20px;
         font-size: 0px;
@@ -1128,8 +1133,8 @@ iframe{
     .btn{
         height: 60px;
         width: 60px;
-        margin-left: 34px;
-        margin-right: 24px;
+        margin-left: 38px;
+        margin-right: 3px;
         border-radius: 50%;
         margin-top: 100px;
     
