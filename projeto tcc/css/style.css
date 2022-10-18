@@ -795,9 +795,9 @@ ul {
 .localizacao{
 
     background-color: #0AA49B;
-    height: 600px;
-    width: 1079px;
-    margin-left: 250px;
+    height: 700px;
+    width: 876px;
+    margin-left: 506px;
     padding-bottom: 0px;
 }
 
@@ -806,7 +806,7 @@ ul {
     color: #FFFFFF;
     font-family: 'Cormorant Garamond';
     font-weight: lighter;
-    padding-left: 337px;
+    padding-left: 223px;
     letter-spacing: 19px;
 
 }
@@ -816,7 +816,7 @@ iframe{
 }
 
 .minimapa{
-    margin-left: 141px;
+    margin-left: 36px;
     width:10px;
 }
 
@@ -1019,6 +1019,9 @@ iframe{
 
 /* celular*/
 @media screen and (max-width: 700px){
+    .bct{
+        width: 359px;
+    }
     .container{
         height: 997px;
     }
@@ -1086,12 +1089,12 @@ iframe{
 
         background-color: #0AA49B;
         height: 500px;
-        width: 360px;
+        width: 337px;
         margin-left: 10px;
         padding-bottom: 0px;
     }
     .minimapa{
-        padding-left: 100px;
+        padding-left: 16px;
         width:10px;
     }
     iframe{
@@ -1125,8 +1128,8 @@ iframe{
     .btn{
         height: 60px;
         width: 60px;
-        margin-left: 20px;
-        margin-right: 10px;
+        margin-left: 34px;
+        margin-right: 24px;
         border-radius: 50%;
         margin-top: 100px;
     
@@ -1134,15 +1137,17 @@ iframe{
 
     .texto1{
         font-size: 20px;
+        margin-left: 10px;
     }
     .btn-saiba{
         font-size: 25px;
         height: 44px;
         width: 170px;
-        margin-left: 7px;
+        margin-left: 10px;
     }
     .subtitulo{
         font-size: 30px;
+        margin-left: 10px;
     }
     .titulo3{
         font-size: 30px;
