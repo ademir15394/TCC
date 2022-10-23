@@ -78,7 +78,7 @@ function prev(){
     slides[index].classList.add('active');
 }
 
-setInterval(next, 4000);
+setInterval(next, 900000);
 
 var swiper = new Swiper(".home-slider", {
     spaceBetween: 30,

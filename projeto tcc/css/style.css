@@ -334,7 +334,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 400px;
+    height: 600px;
     margin-left: -9px;
     
 }
@@ -344,7 +344,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 400px;
+    height: 600px;
     margin-left: -9px;
     
 }
@@ -354,7 +354,7 @@ body{
     background-size:cover;
     background-repeat: no-repeat;
     width: auto;
-    height: 400px;
+    height: 600px;
     margin-left: -9px;
     
 }
@@ -430,7 +430,7 @@ body{
 
 .container{
     display: flex;
-    padding-top: 0%;
+    padding-top: 2%;
     background-color: #39A9A3;
     height: 480px;
 }
@@ -593,6 +593,10 @@ ul {
 
 /*sessao de procedimento*/
 
+.pr{
+    margin-top: 100px;
+}
+
 .procedimento{
 
     width: auto;
@@ -643,7 +647,6 @@ ul {
     letter-spacing: 5px;
 }
 .bct{
-    margin-bottom: 260px;
     width: 860px;
 }
 
@@ -732,6 +735,10 @@ ul {
     height: 70px;
 
 
+}
+
+.dr{
+    margin-bottom: 205px;
 }
 
 .link-agendamento{
