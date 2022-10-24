@@ -87,7 +87,7 @@ body{
     display: flex;
     align-items: center;
     list-style: none;
-    margin-left: 90px;
+    margin-left: 24px;
   }
   
   .navbar__item {
@@ -99,12 +99,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 167px;
+    width: 238px;
     text-decoration: none;
     height: 12%;
     transition: all 0.3s ease;
     font-family: 'Quicksand';
     font-size: 26px; 
+    letter-spacing: 2px;
   }  
 
   .navbar__menu2 {
@@ -778,6 +779,8 @@ ul {
     font-size: 60px;
     font-weight: lighter;
     font-family: 'Cormorant SC';
+    margin-top: 90px;
+    margin-bottom: 10px;
 
 }
 
@@ -786,7 +789,7 @@ ul {
     display: flex;
     text-align: center;
     font-size: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 71px;
     letter-spacing: 2px;
 }
 
@@ -804,7 +807,7 @@ ul {
     background-color: #0AA49B;
     height: 650px;
     width: 1079px;
-    margin-left: 250px;
+    margin-left: 388px;
     padding-bottom: 0px;
 }
 
