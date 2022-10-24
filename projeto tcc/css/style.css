@@ -113,7 +113,7 @@ body{
     justify-content: flex-end;
     list-style: none;
     margin-top: -5px;
-    width: 1663px;
+    width: 1720px;
   }
   
   .navbar__item2 {
@@ -125,7 +125,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 167px;
+    width: 271px;
     text-decoration: none;
     height: 12%;
     transition: all 0.3s ease;
