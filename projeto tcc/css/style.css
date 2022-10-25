@@ -791,6 +791,8 @@ ul {
     font-size: 30px;
     padding-bottom: 71px;
     letter-spacing: 2px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 
@@ -809,6 +811,7 @@ ul {
     width: 1079px;
     margin-left: 388px;
     padding-bottom: 0px;
+    margin-top: 70px;
 }
 
 .titulo6{
@@ -1208,6 +1211,33 @@ iframe{
 }/*cadastro mobile*/
 
 @media screen and (max-width: 1280px){
-    .navbar__links
+    .navbar__menu{
+        margin-left: -48px;
+    }
+    .navbar__links{
+        width: 203px;
+    }
+    .navbar__menu2{
+        width: 1280px;
+    }
+    .navbar__links2{
+        width: 204px;
+    }
+    #navbar__logo{
+        margin-left: 105px;
+    }
+    .tabela{
+        margin-left: -47px;
+    }
+    .localizacao{
+        margin-left: 95px;
+    }
+    .btn{
+        margin-left: 103px;
+        margin-right: 161px;
+    }
+    .btn-agendamento{
+        margin-left: 440px;
+    }
 
 }
