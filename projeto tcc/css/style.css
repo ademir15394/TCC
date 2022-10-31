@@ -397,7 +397,7 @@ ul {
     font-family: 'Quicksand';
   }
   
-  @media (max-width: 980px) {
+  @media (max-width: 1078px) {
     .lista-curso {
       flex-wrap: wrap;
     }
@@ -409,13 +409,13 @@ ul {
     padding: 15px 20px 15px 20px;
     width: 100%;
   }
-  @media (max-width: 980px) {
+  @media (max-width: 1078px) {
     .lista-curso .item {
       max-width: 100%;
     }
   }
   .lista-curso .item strong {
-    display: block;
+    display: block; 
     text-align: center;
     text-transform: uppercase;
   }
@@ -1319,6 +1319,7 @@ iframe{
 }
 /* celular*/
 
+
 .teste{
     color: #FFFFFF;
     font-size: 0px;
@@ -1356,6 +1357,8 @@ iframe{
 
 }/* fim cadastro mobile*/
 
+
+
 @media screen and (max-width: 1280px){
     .tabela{
         margin-left: -47px;
@@ -1373,16 +1376,61 @@ iframe{
 
 }
 
+
+@media screen and (max-width: 1130px){
+.lista-curso{
+    margin-left: 47px;
+}
+.botao{
+    margin-left: 343px;
+}
+.localizacao{
+    width: 962px;
+    margin-left: 68px;
+}
+.minimapa{
+    margin-left: 85px;
+}
+
+}
+
+@media screen and (max-width: 1078px){
+    .container{
+        height: 849px;
+    }
+    .lista-curso{
+        margin-left: 126px;
+        width: 78%;
+    }
+    .btn-agendamento{
+        margin-left: 338px;
+    }
+    .botao{
+        margin-left: 295px;
+    }
+    .localizacao{
+        width: 892px;
+        margin-left: 55px;
+    }
+    .minimapa{
+        margin-left: 49px;
+    }
+    .btn{
+        margin-left: 57px;
+    }
+    
+    }
+
 @media screen and (max-width: 980px){
     .tabela{
-        margin-left: -47px;
+        margin-left: -128px;
     }
     .localizacao{
         margin-left: 22px;
-        width: 892px;
+        width: 852px;
     }
     .minimapa{
-        margin-left: 42px;
+        margin-left: 31px;
     }
     .titulo6{
         padding-left: 259px;
