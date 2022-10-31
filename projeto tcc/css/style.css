@@ -1444,3 +1444,23 @@ iframe{
     }
 
 }
+
+@media screen and (max-width: 890px){
+    .bct{
+        width: 579px;
+    }
+    iframe{
+        width: 673px;
+    }
+    .localizacao{
+        width: 755px;
+    }
+    .btn-agendamento{
+        margin-left: 247px;
+    }
+    .btn{
+        margin-left: 13px;
+        margin-right: 132px;
+    }
+
+}
