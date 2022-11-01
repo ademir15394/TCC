@@ -44,6 +44,9 @@ body{
     scroll-behavior: smooth;
 
   }
+  .pt2{
+    margin-left: 364px;
+  }
   
   .navbar {
     background: #333333;
@@ -931,7 +934,25 @@ iframe{
 
 
 
+@media screen and (max-width: 1389px){
 
+    .pt2{
+        margin-left: 265px;
+    }
+    .navbar__item{
+        width: 203px;
+    }
+
+}
+@media screen and (max-width: 1224px){
+
+    .pt2{
+        margin-left: 229px;
+    }
+    .navbar__item{
+        width: 200px;
+    }
+}
 
 
 
@@ -1069,17 +1090,39 @@ iframe{
       transition: all 0.5s ease;
       z-index: -1;
     }
-  
+    .navbar__menu2 {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 0;
+        width: 100%;
+        position: absolute;
+        top: -1000px;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: -1;
+      }  
+
+      .navbar__menu2.active {
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+      }
     .navbar__menu.active {
-      background: #131313;
-      top: 100%;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 99;
-      height: 60vh;
-      font-size: 1.6rem;
-    }
-  
+        background: #131313;
+        top: 100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 99;
+        height: 60vh;
+        font-size: 1.6rem;
+      }
+
+
+      
     #navbar__logo {
         display: flex;
       margin-left: 10px;
@@ -1178,6 +1221,154 @@ iframe{
 
 
 
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px){
+    .tabela{
+        margin-left: -47px;
+    }
+    .localizacao{
+        margin-left: 30px;
+    }
+    .btn{
+        margin-left: 103px;
+        margin-right: 161px;
+    }
+    .btn-agendamento{
+        margin-left: 387px;
+    }
+
+}
+
+
+@media screen and (max-width: 1130px){
+.lista-curso{
+    margin-left: 47px;
+}
+.botao{
+    margin-left: 343px;
+}
+.localizacao{
+    width: 962px;
+    margin-left: 68px;
+}
+.minimapa{
+    margin-left: 85px;
+}
+
+}
+
+@media screen and (max-width: 1078px){
+    .container{
+        height: 849px;
+    }
+    .lista-curso{
+        margin-left: 126px;
+        width: 78%;
+    }
+    .btn-agendamento{
+        margin-left: 338px;
+    }
+    .botao{
+        margin-left: 295px;
+    }
+    .localizacao{
+        width: 892px;
+        margin-left: 55px;
+    }
+    .minimapa{
+        margin-left: 49px;
+    }
+    .btn{
+        margin-left: 57px;
+    }
+    
+    }
+
+@media screen and (max-width: 980px){
+    .tabela{
+        margin-left: -128px;
+    }
+    .localizacao{
+        margin-left: 22px;
+        width: 852px;
+    }
+    .minimapa{
+        margin-left: 31px;
+    }
+    .titulo6{
+        padding-left: 259px;
+    }
+    .btn{
+        margin-left: 44px;
+        margin-right: 138px;
+    }
+    .btn-agendamento{
+        margin-left: 315px;
+    }
+
+}
+
+@media screen and (max-width: 890px){
+    .bct{
+        width: 579px;
+    }
+    iframe{
+        width: 673px;
+    }
+    .localizacao{
+        width: 755px;
+    }
+    .btn-agendamento{
+        margin-left: 247px;
+    }
+    .btn{
+        margin-left: 13px;
+        margin-right: 132px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+    .bct{
+        width: 579px;
+    }
+    iframe{
+        width: 643px;
+    }
+    .titulo6{
+        padding-left: 159px;
+    }
+    .localizacao{
+        width: 703px;
+    }
+    .btn-agendamento{
+        margin-left: 189px;
+    }
+    .btn{
+        margin-left: 13px;
+        margin-right: 132px;
+    }
+    .txt-local{
+        margin-left: 50px;
+    }
+
+}
+
+@media screen and (max-width: 755px){
+    .localizacao{
+        margin-left: 13px;
+        width: 681px;
+    }
+    .minimapa{
+        margin-left: 14px;
+    }
+}
 
 
 /* celular*/
@@ -1356,137 +1547,3 @@ iframe{
     
 
 }/* fim cadastro mobile*/
-
-
-
-@media screen and (max-width: 1280px){
-    .tabela{
-        margin-left: -47px;
-    }
-    .localizacao{
-        margin-left: 30px;
-    }
-    .btn{
-        margin-left: 103px;
-        margin-right: 161px;
-    }
-    .btn-agendamento{
-        margin-left: 387px;
-    }
-
-}
-
-
-@media screen and (max-width: 1130px){
-.lista-curso{
-    margin-left: 47px;
-}
-.botao{
-    margin-left: 343px;
-}
-.localizacao{
-    width: 962px;
-    margin-left: 68px;
-}
-.minimapa{
-    margin-left: 85px;
-}
-
-}
-
-@media screen and (max-width: 1078px){
-    .container{
-        height: 849px;
-    }
-    .lista-curso{
-        margin-left: 126px;
-        width: 78%;
-    }
-    .btn-agendamento{
-        margin-left: 338px;
-    }
-    .botao{
-        margin-left: 295px;
-    }
-    .localizacao{
-        width: 892px;
-        margin-left: 55px;
-    }
-    .minimapa{
-        margin-left: 49px;
-    }
-    .btn{
-        margin-left: 57px;
-    }
-    
-    }
-
-@media screen and (max-width: 980px){
-    .tabela{
-        margin-left: -128px;
-    }
-    .localizacao{
-        margin-left: 22px;
-        width: 852px;
-    }
-    .minimapa{
-        margin-left: 31px;
-    }
-    .titulo6{
-        padding-left: 259px;
-    }
-    .btn{
-        margin-left: 44px;
-        margin-right: 138px;
-    }
-    .btn-agendamento{
-        margin-left: 315px;
-    }
-
-}
-
-@media screen and (max-width: 890px){
-    .bct{
-        width: 579px;
-    }
-    iframe{
-        width: 673px;
-    }
-    .localizacao{
-        width: 755px;
-    }
-    .btn-agendamento{
-        margin-left: 247px;
-    }
-    .btn{
-        margin-left: 13px;
-        margin-right: 132px;
-    }
-
-}
-
-@media screen and (max-width: 800px){
-    .bct{
-        width: 579px;
-    }
-    iframe{
-        width: 643px;
-    }
-    .titulo6{
-        padding-left: 159px;
-    }
-    .localizacao{
-        width: 703px;
-    }
-    .btn-agendamento{
-        margin-left: 189px;
-    }
-    .btn{
-        margin-left: 13px;
-        margin-right: 132px;
-    }
-    .txt-local{
-        margin-left: 50px;
-    }
-
-}
