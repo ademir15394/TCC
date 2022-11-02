@@ -1386,10 +1386,10 @@ iframe{
     }
 
     .botao{
-        margin-left: 102px;
+        margin-left: 105px;
     }
     .bct{
-        width: auto;
+        width: 300px;
     }
     .img-rede{
         width: 57px;
@@ -1404,19 +1404,19 @@ iframe{
     height: 60px;
 }
     .btn-agendamento{
-        display: flex;
-        text-decoration: none;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        margin-left: 5pc;
+        margin-left: 7pc;
         font-size: 40px;
-        font-weight: lighter;
-        font-style: normal;
-        border: none;
         border-radius: 50px;
         width: 200px;
         height: 70px;
+    }
+    .txt{
+        font-size: 25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .titulo5{
+        font-size: 50px;
     }
 
     .link-agendamento{
@@ -1444,12 +1444,17 @@ iframe{
         background-color: #0AA49B;
         height: 500px;
         width: 360px;
-        margin-left: 10px;
+        margin-left: 27px;
         padding-bottom: 0px;
     }
     .minimapa{
-        padding-left: 100px;
+        padding-left: 35px;
         width:10px;
+    }
+    .txt-local{
+        margin-left: -89px;
+        width: 407px;
+        font-size: 25px;
     }
     iframe{
         width: 250px;
