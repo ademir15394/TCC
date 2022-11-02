@@ -1443,7 +1443,7 @@ iframe{
 
         background-color: #0AA49B;
         height: 500px;
-        width: 360px;
+        width: 341px;
         margin-left: 10px;
         padding-bottom: 0px;
     }
@@ -1452,7 +1452,7 @@ iframe{
         width:10px;
     }
     .txt-local{
-        margin-left: -89px;
+        margin-left: -116px;
         width: 407px;
         font-size: 25px;
     }
@@ -1461,7 +1461,7 @@ iframe{
         height: 350px;
     }
     .titulo6{
-        padding-left: 70px;
+        padding-left: 40px;
         font-size: 25px;
         letter-spacing: 15px;
     }
@@ -1496,6 +1496,7 @@ iframe{
 
     .texto1{
         font-size: 20px;
+        letter-spacing: 5px;
     }
     .btn-saiba{
         font-size: 25px;
