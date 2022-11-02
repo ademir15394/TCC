@@ -1473,6 +1473,8 @@ iframe{
         margin-left: 10px;
         font-size: 22px;
         margin-right: 10px;
+        padding: 0rem;
+        width: 97%;
     }
     .navbar__menu_2{
         padding-left: 55%;
