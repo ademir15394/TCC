@@ -382,6 +382,9 @@ ul {
   .tabela{
     margin-left: 170px;
   }
+  .tabel{
+    margin-left: 531px;
+  }
   .container-cursos h1 {
     letter-spacing: 1px;
   }
@@ -392,7 +395,7 @@ ul {
   
   .lista-curso {
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     margin: 10px auto;
     max-width: 800px;
     width: 100%;
@@ -1034,6 +1037,10 @@ iframe{
         margin-right: 90px;
     }
 
+    .campo{
+        width: 880px;
+        margin-left: 210px;
+    }
 }
 
 @media screen and (max-width: 1482px){
@@ -1226,6 +1233,12 @@ iframe{
 
 
 
+  @media screen and (max-width: 1794px){
+    .confimar{
+        margin-left: 250px;
+        margin-top: 55px;
+    }
+}
 
 
 @media screen and (max-width: 1280px){
@@ -1241,6 +1254,10 @@ iframe{
     }
     .btn-agendamento{
         margin-left: 387px;
+    }
+    .campo{
+        width: 800px;
+        margin-left: 75px;
     }
 
 }
@@ -1290,6 +1307,7 @@ iframe{
     
     }
 
+
 @media screen and (max-width: 980px){
     .tabela{
         margin-left: -128px;
@@ -1312,6 +1330,13 @@ iframe{
         margin-left: 315px;
     }
 
+}
+
+@media screen and (max-width: 914px){
+    .campo{
+        width: 518px;
+        margin-left: 30px;
+    }
 }
 
 @media screen and (max-width: 890px){
