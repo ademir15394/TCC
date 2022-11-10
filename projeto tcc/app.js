@@ -16,8 +16,6 @@
     const elem = document.querySelector('.highlight');
     const homeMenu = document.querySelector('#home-page');
     const aboutMenu = document.querySelector('#about-page');
-    const homeMenu2 = document.querySelector('#home-page2');
-    const aboutMenu2 = document.querySelector('#about-page2')
     const servicesMenu = document.querySelector('#services-page');
     let scrollPos = window.scrollY;
     // console.log(scrollPos);
@@ -145,4 +143,12 @@ var swiper = new Swiper(".home-slider", {
   });
 
 
-
+  function loader(){
+    document.querySelector('.loader-container').classList.add('fade-out');
+  }
+  
+  function fadeOut(){
+    setInterval(loader, 3000);
+  }
+  
+  window.onload = fadeOut;

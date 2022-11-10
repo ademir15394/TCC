@@ -20,28 +20,20 @@
     </div>
     <ul class="navbar__menu">
       <li class="navbar__item">
-        <a href="#home" class="navbar__links" id="home-page">Home</a>
+        <a href="index.html#teste" class="navbar__links" id="home-page">Cursos</a>
       </li>
       <li class="navbar__item">
-        <a href="#about" class="navbar__links" id="about-page">About</a>
+        <a href="index.html#procedimento" class="navbar__links" id="about-page">Procedimento</a>
       </li>
       <li class="navbar__item">
-        <a href="#services" class="navbar__links" id="services-page"
-          >Services</a
-        >
+        <a href="index.html#agendamento" class="navbar__links" id="services-page">Agendamento</a>
       </li>
-    </ul>
-    <ul class="navbar__menu2">
-      <li class="navbar__item2">
-        <a href="#home" class="navbar__links2" id="home-page">Home</a>
+      <div class="pt2"></div>
+      <li class="navbar__item">
+        <a href="index.html#quemsomos" class="navbar__links" id="home-page">Quem Somos</a>
       </li>
-      <li class="navbar__item2">
-        <a href="#about" class="navbar__links2" id="about-page">About</a>
-      </li>
-      <li class="navbar__item2">
-        <a href="#services" class="navbar__links2" id="services-page"
-          >Services</a
-        >
+      <li class="navbar__item">
+        <a href="index.html#local" class="navbar__links" id="about-page">Localização</a>
       </li>
     </ul>
   </div>
@@ -60,13 +52,13 @@
 
 <div class="sessao">
   <img class="img_sessao" src="img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id="manicure" value="manicure"><label for="" class="textobt">Manicuri</label><br>
+  <input class="bt01" type="checkbox" name="check" id="manicure" value="manicure"><label for="" class="textobt">Manicure</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 
 </div>
 <div class="sessao">
   <img class="img_sessao" src="img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id="pedicure"><label for="" class="textobt">Pedicuri</label><br>
+  <input class="bt01" type="checkbox" name="check" id="pedicure"><label for="" class="textobt">Pedicure</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 </div>
 <div class="sessao">
@@ -76,7 +68,7 @@
 </div>
 <div class="sessao">
   <img class="img_sessao" src="img/procedimento1.jpg" alt="">
-  <input class="bt01" type="checkbox" name="check" id="sombrancelha"><label for="" class="textobt">Sobrancelha</label><br>
+  <input class="bt01" type="checkbox" name="check" id="sombrancelha"><label for="" class="textobt">Sobrancelhas</label><br>
   <button class="btn-saiba-sessao">Saiba Mais</button>
 </div>
 
@@ -123,7 +115,7 @@ if(data === ""){
 
 
 
-var proce = ["Manicuri","Pedicuri","Alongamento","Sobrancelha"];
+var proce = ["Manicure","Pedicure","Alongamento","Sobrancelhas"];
 		
 			
 			document.addEventListener("DOMContentLoaded", function(){
@@ -156,12 +148,9 @@ var proce = ["Manicuri","Pedicuri","Alongamento","Sobrancelha"];
   var nome = document.getElementById('nome').value;
   var date = document.getElementById('data').value;
   var pr = document.getElementById("selecaop").innerText;
-  var url = "https://wa.me/5511975258330?text=" // Seu numero
-    + "*Formulário de Contato*" + "%0a" // Mensagem personalizada
-    + "%0a" // Quebra de linha
-    + "*Nome*: " + nome + "%0a" // Dados do formulário
-    + "*E-mail*: " + date + "%0a"
-    +"*Procedimento*" + pr;
+  var url = "https://wa.me/5511949030551?text=" // Seu numero
+    + "Olá! Meu nome é " + nome + "%0a" // Dados do formulário
+    + "Gostaria de agendar um horário na data: " + date + " para o procedimento: " + pr;
   window.open(url, '_blank').focus();
 
 
