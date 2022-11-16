@@ -1136,7 +1136,7 @@ iframe{
 
 
 /* celular*/
-@media screen and (max-width: 700px){
+@media screen and (max-width: 650px){
     .container{
         height: 1045px;
     }
@@ -1696,6 +1696,26 @@ iframe{
 }
 
 @media screen and (max-width: 700px){
-    
-
+    .localizacao{
+        width: 600px;
+    }
+    iframe{
+        width: 503px;
+    }
+    .txt-local{
+        margin-left: -5px;
+    }
+    .titulo6{
+        padding-left: 134px;
+        font-size: 36px;
+    }
+    .navbar__links{
+        width: 98%;
+    }
+    .lista-curso{
+        margin-left: 66px;
+    }
+    .botao{
+        margin-left: 104px;
+    }
 }
