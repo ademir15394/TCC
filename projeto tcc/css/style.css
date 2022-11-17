@@ -979,6 +979,15 @@ iframe{
     }
 }
 
+
+@media screen and (max-width: 1556px){
+    .campo{
+        width: 880px;
+        margin-left: 210px;
+    }
+
+}
+
 @media screen and (max-width: 1280px){
     .tabela{
         margin-left: -47px;
@@ -1071,12 +1080,9 @@ iframe{
 
 }
 
-@media screen and (max-width: 914px){
-    .campo{
-        width: 518px;
-        margin-left: 30px;
-    }
-}
+
+
+
 
 @media screen and (max-width: 890px){
     .tudo{
@@ -1135,58 +1141,11 @@ iframe{
 }
 
 
-
-
-
 .teste{
     color: #FFFFFF;
     font-size: 0px;
 }
-/*cadastro mobile*/
-@media screen and (max-width: 600px){
-    .campo{
-        font-size: 30px;
-        width: 360px;
-        margin-left: 5px;
-        height: 50px;
-        margin-top: 200px;
-    }
-    
-  .confimar{
-    margin-top: 20px;
-    font-size: 25px;
 
-    height: 43px;
-    align-items: center;
-    align-content: center;
-    width: 200px;
-    margin-left: 100px;
-}
-.sessao{
-    display: inline-block;
-    height: 400px;
-    width: 350px;
-    margin-left: 5px;
-}
-.img_sessao{
-    width: 370px;
-}
- 
-.txt{
-    font-size: 25px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
-
-.btn-agendamento:hover{
-    transition: all 0.50s;
-    width: 250px;
-    background-color: #000000;
-    color: #00C2B8;
-    letter-spacing: 5px;
-
-}
-}/* fim cadastro mobile*/
 
 
 
@@ -1266,10 +1225,10 @@ iframe{
         margin-right: 90px;
     }
 
-    .campo{
+    /*.campo{
         width: 880px;
         margin-left: 210px;
-    }
+    }*/
     .pt2{
         margin-left: 204px;
     }
@@ -1560,12 +1519,65 @@ iframe{
         width: 98%;
     }
     .lista-curso{
-        margin-left: 66px;
+        margin-left: 99px;
     }
     .botao{
         margin-left: 104px;
     }
 }
+@media screen and (max-width: 914px){
+    .campo{
+        width: 518px;
+        margin-left: 30px;
+    }
+}
+
+/*cadastro mobile*/
+@media screen and (max-width: 680px){
+    .campo{
+        font-size: 30px;
+        width: 360px;
+        margin-left: 5px;
+        height: 50px;
+        margin-top: 200px;
+    }
+    
+  .confimar{
+    margin-top: 20px;
+    font-size: 25px;
+
+    height: 43px;
+    align-items: center;
+    align-content: center;
+    width: 200px;
+    margin-left: 100px;
+}
+.sessao{
+    display: inline-block;
+    height: 400px;
+    width: 350px;
+    margin-left: 5px;
+}
+.img_sessao{
+    width: 370px;
+}
+ 
+.txt{
+    font-size: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+/*.btn-agendamento:hover{
+    transition: all 0.50s;
+    width: 250px;
+    background-color: #000000;
+    color: #00C2B8;
+    letter-spacing: 5px;
+
+}*/
+}/* fim cadastro mobile*/
+
 
 /* celular*/
 @media screen and (max-width: 680px){
