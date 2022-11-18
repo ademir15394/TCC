@@ -1612,11 +1612,16 @@ iframe{
     height: 60px;
 }
     .btn-agendamento{
-        margin-left: 7pc;
+        margin-left: 9pc;
         font-size: 40px;
         border-radius: 50px;
         width: 200px;
         height: 70px;
+    }
+    .btn-agendamento:hover{
+        width: 211px;
+        background-color: #ffffff;
+        letter-spacing: 5px;
     }
 
    
@@ -1727,9 +1732,70 @@ iframe{
 
 }
 
-
-  
-
-
-
 /* celular*/
+
+
+/*procedimento*/
+
+.pt4{
+    margin-left: 618px;
+}
+.dip{
+    margin-left: 0px;
+}
+
+.btn-agendamento-proce{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 220px;
+    background-color: #ffffff;
+    font-size: 40px;
+    font-family: 'Quicksand';
+    font-weight: lighter;
+    font-style: normal;
+    border: none;
+    border-radius: 50px;
+    width: 380px;
+    height: 70px;
+}
+
+.link-agendamento-proce{
+    text-decoration: none;
+    color:#39A9A3;
+}
+@media screen and (max-width: 1617px){
+
+    .pt4{
+        margin-left: 469px;
+    }
+    .dip{
+        margin-left: 138px;
+    }
+
+}
+
+@media screen and (max-width: 1520px){
+
+    .pt4{
+        margin-left: 469px;
+    }
+    .dip{
+        margin-left: 55px;
+    }
+
+}
+@media screen and (max-width: 1340px){
+
+    .pt4{
+        margin-left: 337px;
+    }
+    .dip{
+        margin-left: 55px;
+    }
+
+}
+
+/*fim procedimento*/
