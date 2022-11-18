@@ -1325,7 +1325,7 @@ iframe{
         display: flex;
       margin-left: 10px;
       font-size: 30px;
-      width: 1979px;
+      width: 231px;
       height: auto;
     }
   
@@ -1797,5 +1797,12 @@ iframe{
     }
 
 }
+@media screen and (max-width: 380px){
+    .btn-agendamento{
+        margin-left: 5pc;
+    }
+}
+
+
 
 /*fim procedimento*/
