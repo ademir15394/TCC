@@ -1780,6 +1780,12 @@ iframe{
         margin-left: 5pc;
     }
 }
+
+.space{
+    margin-left: 342px;
+}
+
+
 @media screen and (max-width: 501px){
     .titulo-proce{
         letter-spacing: 4px;
@@ -1797,9 +1803,6 @@ iframe{
     .space{
         margin-left:200px;
     }
-}
-.space{
-    margin-left: 342px;
 }
 
 
