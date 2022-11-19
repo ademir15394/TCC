@@ -1612,7 +1612,7 @@ iframe{
     height: 60px;
 }
     .btn-agendamento{
-        margin-left: 9pc;
+        margin-left: 12pc;
         font-size: 40px;
         border-radius: 50px;
         width: 200px;
@@ -1744,28 +1744,6 @@ iframe{
     margin-left: 0px;
 }
 
-.btn-agendamento-proce{
-    display: flex;
-    text-decoration: none;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-    margin-left: 220px;
-    background-color: #ffffff;
-    font-size: 40px;
-    font-family: 'Quicksand';
-    font-weight: lighter;
-    font-style: normal;
-    border: none;
-    border-radius: 50px;
-    width: 380px;
-    height: 70px;
-}
-
-.link-agendamento-proce{
-    text-decoration: none;
-    color:#39A9A3;
-}
 @media screen and (max-width: 1617px){
 
     .pt4{
@@ -1801,6 +1779,24 @@ iframe{
     .btn-agendamento{
         margin-left: 5pc;
     }
+}
+@media screen and (max-width: 501px){
+    .titulo-proce{
+        letter-spacing: 4px;
+    }
+    .txt-det{
+        font-size: 22px;
+    }
+    .titulo-proce{
+        font-size: 41px;
+    }
+    .text-list{
+        font-size: 22px;
+
+    }
+}
+.space{
+    margin-left: 342px;
 }
 
 
