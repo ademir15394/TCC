@@ -1794,10 +1794,14 @@ iframe{
         font-size: 22px;
 
     }
+    .space{
+        margin-left:300px;
+    }
 }
 .space{
     margin-left: 342px;
 }
+
 
 
 
