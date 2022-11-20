@@ -371,6 +371,12 @@ body{
     font-family: 'Cormorant Garamond';
 
 }
+
+.curso-txt{
+    color: #000000;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
     padding: 0;
@@ -523,6 +529,7 @@ ul {
 }
 .tudo{
     width: 860px;
+    margin-top: 158px;
 }
 
 .pt{
@@ -741,7 +748,7 @@ iframe{
     background-color: #00C2B8;
     height: 110px;
     width: 110px;
-    margin-left: 278px;
+    margin-left: 326px;
     margin-right: 140px;
     border-radius: 50%;
     margin-top: 100px;
@@ -757,7 +764,7 @@ iframe{
 /*icones rede sociais*/
 .Rede_Social{
     display: flex;
-    padding-left: 50px;
+    padding-left: 189px;
 }
 /*fim icones rede scocias*/
 
@@ -1534,6 +1541,9 @@ iframe{
 
 /*cadastro mobile*/
 @media screen and (max-width: 680px){
+    .Rede_Social{
+        padding-left: 0px;
+    }
     .campo{
         font-size: 30px;
         width: 360px;
@@ -1612,7 +1622,7 @@ iframe{
     height: 60px;
 }
     .btn-agendamento{
-        margin-left: 12pc;
+        margin-left: 14pc;
         font-size: 40px;
         border-radius: 50px;
         width: 193px;
@@ -1645,13 +1655,13 @@ iframe{
         justify-content: center;
     
         font-family: 'Quicksand';
-        font-size: 24px;
+        font-size: 36px;
         font-weight: normal;
         color: #FFFFFF;
         margin: auto;
         padding-top: 40px;
         padding-bottom: 10%;
-        letter-spacing: 18px;
+        letter-spacing: 8px;
         text-align: center;
     }
     .localizacao{
@@ -1704,7 +1714,7 @@ iframe{
     .btn{
         height: 60px;
         width: 60px;
-        margin-left: 20px;
+        margin-left: 86px;
         margin-right: 10px;
         border-radius: 50%;
         margin-top: 100px;
