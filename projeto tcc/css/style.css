@@ -1805,7 +1805,7 @@ iframe{
     }
 }
 
-@media screen and (max-width: 615px){
+@media screen and (max-width: 600px){
     .img-proce{
         width: 158px;
         margin-left: 11px;
