@@ -476,6 +476,7 @@ ul {
 
 .pr{
     margin-top: 100px;
+    margin-left: 12px;
 }
 
 .procedimento{
@@ -927,6 +928,7 @@ iframe{
         font-style:normal;
         text-decoration: none;
         border-style: none;
+        cursor: pointer;
         
     
     
@@ -937,6 +939,11 @@ iframe{
         align-content: center;
         width: 200px;
         margin-left: 800px;
+    }
+
+    .final{
+        color: #FFFFFF;
+        text-decoration: none;
     }
 
 /*fim formulario*/
@@ -1730,6 +1737,12 @@ iframe{
         height: 44px;
         width: 170px;
         margin-left: 7px;
+    }
+    .btn-saiba:hover{
+        transition: all 0.50s;
+        width: 185px;
+        height: 50px;
+        letter-spacing: 4px;
     }
     .subtitulo{
         font-size: 30px;
