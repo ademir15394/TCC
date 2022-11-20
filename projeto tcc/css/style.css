@@ -777,10 +777,10 @@ iframe{
 }
 
 .img-proce{
-    width: 400px;
+    width: 286px;
 
     margin-top: 10px;
-    margin-right: 80px;
+    margin-right: 22px;
     float: left;
 }
 
@@ -840,7 +840,7 @@ iframe{
 }
 
 .loader-container img{
-    width:39rem;
+    width:27rem;
 }
 
 .loader-container.fade-out{
