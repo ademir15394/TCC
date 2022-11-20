@@ -1615,8 +1615,8 @@ iframe{
         margin-left: 12pc;
         font-size: 40px;
         border-radius: 50px;
-        width: 200px;
-        height: 70px;
+        width: 193px;
+        height: 49px;
     }
     .btn-agendamento:hover{
         width: 211px;
@@ -1805,7 +1805,16 @@ iframe{
     }
 }
 
-
+@media screen and (max-width: 615px){
+    .img-proce{
+        width: 158px;
+        margin-left: 11px;
+    }
+    .titulo-proce{
+        font-size: 43px;
+        letter-spacing: 6px;
+    }
+}
 
 
 /*fim procedimento*/
