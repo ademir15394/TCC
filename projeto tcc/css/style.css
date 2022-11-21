@@ -1069,6 +1069,12 @@ iframe{
     
     }
 
+    
+@media screen and (max-width: 1009px){
+    .btn-agendamento{
+        margin-left:305px;
+    }
+}
 
 @media screen and (max-width: 980px){
     .tabela{
@@ -1484,7 +1490,15 @@ iframe{
         letter-spacing: 11px;
     }
     .btn-agendamento{
-        margin-left: 139px;
+        margin-left: 207px;
+    }
+}
+
+
+@media screen and (max-width: 784px){
+    .titulo-proce{
+        font-size: 45px;
+        letter-spacing: 10px;
     }
 }
 
@@ -1539,10 +1553,15 @@ iframe{
         margin-left: 104px;
     }
 }
-@media screen and (max-width: 914px){
-    .campo{
-        width: 518px;
-        margin-left: 30px;
+
+@media screen and (max-width: 716px){
+    .btn-agendamento{
+        margin-left: 160px;
+    }
+}
+@media screen and (max-width: 826px){
+    .btn-agendamento{
+
     }
 }
 
@@ -1589,6 +1608,7 @@ iframe{
 }/* fim cadastro mobile*/
 
 
+
 /* celular*/
 @media screen and (max-width: 680px){
     .container{
@@ -1622,7 +1642,7 @@ iframe{
     height: 60px;
 }
     .btn-agendamento{
-        margin-left: 14pc;
+        margin-left: 157px;
         font-size: 40px;
         border-radius: 50px;
         width: 193px;
@@ -1753,7 +1773,11 @@ iframe{
 
 /* celular*/
 
-
+@media screen and (max-width: 394px){
+    .btn-agendamento{
+        margin-left: 93px;
+    }
+}
 /*procedimento*/
 
 .pt4{
@@ -1811,12 +1835,15 @@ iframe{
     }
     .txt-det{
         font-size: 22px;
+
     }
     .titulo-proce{
         font-size: 41px;
     }
     .text-list{
         font-size: 22px;
+        width: 261px;
+        margin-left: 4px;
 
     }
     .space{
